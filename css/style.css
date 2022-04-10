@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+body{
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(to right, #000428, #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+h3{
+    font-size: 40px;
+}
+h2{
+    font-size: 50px;
+}
+button{
+    margin-top: 30px;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
